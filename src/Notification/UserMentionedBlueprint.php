@@ -58,7 +58,7 @@ class UserMentionedBlueprint implements BlueprintInterface, MailableInterface
      */
     public function getEmailView()
     {
-        return ['text' => 'flarum-mentions::emails.userMentioned'];
+        return ['html' => 'flarum-mentions::emails.userMentioned'];
     }
 
     /**

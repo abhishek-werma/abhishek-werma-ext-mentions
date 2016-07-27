@@ -1,4 +1,4 @@
-Hey {{ $user->username }}!
+<b>Hey</b> {{ $user->username }}!
 
 {{ $blueprint->post->user->username }} mentioned you in a post in {{ $blueprint->post->discussion->title }}.
 

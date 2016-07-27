@@ -66,7 +66,7 @@ class PostMentionedBlueprint implements BlueprintInterface, MailableInterface
      */
     public function getEmailView()
     {
-        return ['text' => 'flarum-mentions::emails.postMentioned'];
+        return ['html' => 'flarum-mentions::emails.postMentioned'];
     }
 
     /**
